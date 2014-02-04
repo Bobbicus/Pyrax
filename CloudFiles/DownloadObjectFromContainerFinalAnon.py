@@ -43,7 +43,7 @@ obj.name= obj_dict[selection]
 print
 #Downloads the chosen object to a local directory
 obj_to_download = obj.name
-cf.download_object("ContainerName",obj_to_download,"/Directory/",structure=True)
+cf.download_object("ContainerName",obj_to_download,"/Directory/",structure=False)
 
 
 
